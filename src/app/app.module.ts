@@ -4,14 +4,12 @@ import { FormsModule } from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TodolistComponent } from './todolist/todolist.component';
-import { DisplayListComponent } from './display-list/display-list.component';
+import { TodoFormComponent } from './todo-form/todo-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodolistComponent,
-    DisplayListComponent
+    TodoFormComponent,
   ],
   imports: [
     BrowserModule,
